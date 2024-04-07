@@ -37,14 +37,14 @@ export default function Home() {
 
 
         <div className="md:h-[380px] h-[330px] w-64 md:w-64 bg-gradient-to-r from-PurpleGradientStart to-PurpleGradientEnd rounded-lg mb-4 text-white">
-            <h2 className="mt-7 font-bold text-sm text-white">Master</h2>
+            <h2 className="mt-7 font-bold text-sm text-white">Professional</h2>
                 <div className="grid grid-cols-1 divide-y mb-2 pr-8 pl-8 pt-4 px-4 py-4">
-                <p className="text-3xl mb-4 mt-4 font-bold text-white"><span className="align-[4px]">$ </span>
-                <span className={(!isChecked)?"monthly mb-4 mt-4 font-bold text-5xl text-white" : "monthly hidden mb-4 mt-4 font-bold text-5xl text-white"} id="monthly">39.99</span>
-                <span className={(isChecked)?"yearly mb-8 mt-7 font-bold text-5xl text-white":"yearly hidden mb-8 mt-7 font-bold text-5xl text-white"} id="yearly">399.99</span></p>          
-                <p className="p-2 text-sm font-bold">2 TB Storage</p>
-                <p className="p-2 text-sm font-bold">10 Users Allowed</p>
-                <p className="p-2 text-sm font-bold">Send up to 20 GB</p>
+                <p className="text-2xl mb-4 mt-4 font-bold text-white"><span className="align-[4px]">$ </span>
+                <span className={(!isChecked)?"monthly mb-4 mt-4 font-bold text-5xl text-white" : "monthly hidden mb-4 mt-4 font-bold text-5xl text-white"} id="monthly">24.99</span>
+                <span className={(isChecked)?"yearly mb-8 mt-7 font-bold text-5xl text-white":"yearly hidden mb-8 mt-7 font-bold text-5xl text-white"} id="yearly">249.99</span></p>          
+                <p className="p-2 text-sm font-bold">1 TB Storage</p>
+                <p className="p-2 text-sm font-bold">5 Users Allowed</p>
+                <p className="p-2 text-sm font-bold">Send up to 10 GB</p>
                 <p></p>
                 </div>
                 <button className="rounded-md bg-gradient-to-r hover:from-PurpleGradientStart hover:to-PurpleGradientEnd text-PurpleGradientEnd font-bold text-xs px-2 py-2 pr-14 pl-14 
