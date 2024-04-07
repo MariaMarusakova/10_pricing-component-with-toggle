@@ -33,12 +33,6 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
-
-    --Gradient: linear-gradient(to middle, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
-    --Very-Light-Grayish-Blue: hsl(240, 75%, 92%);
-    --Light-Grayish-Blue: hsl(234, 14%, 74%);
-    --Grayish-Blue: hsl(233, 13%, 49%);
-    --Dark-Grayish-Blue: hsl(232, 13%, 33%);
   }
 
   .dark {
